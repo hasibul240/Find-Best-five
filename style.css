@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+}
+
+.header_text {
+    width: 800px;
+    margin: auto;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+.header_text h1 {
+    font-size: 75px;
+    font-family: 'Lobster', cursive;
+    color: #2474eb;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header_text p {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 20px;
+}
+
+.playars {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* create a button */
+.button {
+    background-color: #2474eb;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.select_playar p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.select_playar {
+    height: 250px;
+}
+
+.selected_player {
+    list-style: number;
+}
+
+.player_name {
+    padding: 5px 10px;
+}
+
+.per_playar_cost {
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.per_playar_cost input {
+    width: 50%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.calculator h2 {
+    text-align: center;
+}
+
+.parsial_cot {
+    justify-content: space-between;
+}
+
+.parsial_cot input {
+    width: 50%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.total_cost_calculate {
+    margin-bottom: 20px;
+}
+
+.total_cost {
+    color: red;
+}
+
+.btn {
+    background-color: #2474eb;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-top: 1px solid gray;
+}
